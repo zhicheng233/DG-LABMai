@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DG-LABMai": {
+      "commandName": "Project"
+    },
+    "配置文件 1": {
+      "commandName": "Executable",
+      "executablePath": "H:\\SDEZ_1.56.00_20250317134137_1\\Package\\start.bat"
+    }
+  }
+}

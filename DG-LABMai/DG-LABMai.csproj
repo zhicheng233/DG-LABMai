@@ -1,0 +1,259 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>DG_LABMai</RootNamespace>
+		<LangVersion>default</LangVersion>
+		<IsPackable>false</IsPackable>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyName>DG_LABMai</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="AMDaemon.NET">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\AMDaemon.NET.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.CJK">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\I18N.CJK.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\I18N.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Posix">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\Mono.Posix.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Analytics.DataPrivacy">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AccessibilityModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AIModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ARModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.BaselibModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.BaselibModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterInputModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterRendererModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CrashReportingModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DirectorModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.FileSystemHttpModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GameCenterModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GridModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.HotReloadModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.IMGUIModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.JSONSerializeModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.LocalizationModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Networking">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.Networking.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ParticleSystemModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PerformanceReportingModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Physics2DModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ProfilerModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ScreenCaptureModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SharedInternalsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpatialTracking">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteMaskModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteShapeModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StreamingModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StyleSheetsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubstanceModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainPhysicsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TilemapModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Timeline">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.Timeline.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TimelineModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TimelineModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TLSModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UmbraModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UNETModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityConnectModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityTestProtocolModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VehiclesModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VFXModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VideoModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VRModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.WindModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.XRModule">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="zxing.unity">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Sinmai_Data\Managed\zxing.unity.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\MelonLoader\net35\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>H:\SDEZ_1.56.00_20250317134137_1\Package\MelonLoader\net35\0Harmony.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<BaseOutputPath>H:\SDEZ_1.56.00_20250317134137_1\Package\Mods</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Core.cs" />
+	</ItemGroup>
+	
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;H:\SDEZ_1.56.00_20250317134137_1\Package\Mods&quot;" />
+	</Target>
+</Project>
